@@ -1,0 +1,31 @@
+{
+	"manifest_version": 2,
+	"name": "EditEmailSubject MX",
+	"description": "Edit e-mail subject header",
+	"version": "3.0.0b1",
+	"author": "tb-developers",
+	"applications": {
+		"gecko": {
+			"id": "edit-email-subject-mx@tb.dev"
+		}
+	},
+	"browser_action": {
+		"default_popup": "html/popup.html",
+		"default_title": "Subject Editor",
+		"default_icon": "images/editemailsubjectmx-icon-64px.png"
+	},
+	"permissions": [
+	],
+	"icons": {
+		"64": "images/editemailsubjectmx-icon-64px.png",
+		"32": "images/editemailsubjectmx-icon-32px.png",
+		"16": "images/editemailsubjectmx-icon-16px.png"
+	},
+	"legacy": {
+        "options": {
+            "page": "chrome://editemailsubject/content/editemailsubjectSettings.xul",
+            "open_in_tab": false
+        }
+    }
+
+}
